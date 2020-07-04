@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Authenticate</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="floating">E-mail</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <!-- <div class="ion-text-center">
+    <ion-spinner color="primary" *ngIf="isLoading"></ion-spinner>
+  </div> -->
+  
+  <ion-button color="primary" (click)="onLogin()">
+    Login
+  </ion-button>
+
+</ion-content>
+<!-- So to summarize, an ion-item is typically used instead of an ion-list
+but it can be combined with ion-label
+and ion-input or other similar form controls outside of ion-list or inside of ion-list
+
+but to basically have these two components, label and input work together -->
